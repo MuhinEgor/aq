@@ -1,6 +1,56 @@
+@font-face {
+font-family: 'Asap';
+src: url(../fonts/Asap/Asap-Regular.ttf);
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Asap';
+src: url(../fonts/Asap/Asap-Italic.ttf);
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family: 'Asap';
+src: url(../fonts/Asap/Asap-Bold.ttf);
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'Asap';
+src: url(../fonts/Asap/Asap-BoldItalic.ttf);
+font-weight: bold;
+font-style: italic;
+}
+@font-face {
+font-family: 'Droid_Sans';
+src: url(../fonts/Droid_Sans/DroidSans.ttf);
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Droid_Sans';
+src: url(../fonts/Droid_Sans/DroidSans-Bold.ttf);
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'Oleo_Script';
+src: url(../fonts/Oleo_Script/OleoScript-Regular.ttf);
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Oleo_Script';
+src: url(../fonts/Oleo_Script/OleoScript-Bold.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
 body {
 	background: #00142d;
 	color: white;
+	font-family: Asap, sans-serif;
 }
 
 header {
@@ -23,7 +73,7 @@ header {
 
 .menu-item {
   display: inline-block;
-  padding-right: 150px;
+  padding-right: 140px;
   text-align: right;
 }
 
@@ -32,6 +82,7 @@ header {
   margin-right: 10px;
   text-align: right;
   font-size: 15px;
+  font-family: Droid_Sans, sans-serif;
 }
 
 a {
@@ -62,7 +113,8 @@ header h1 {
 	display: inline-block;
 	background: url(../img/wrapper1-background.png);
 	position: relative;
-	margin-left: 50px;
+	margin-left: 100px;
+	font-family: Oleo_Script, sans-serif;
 }
 
 .blok {
@@ -72,16 +124,18 @@ header h1 {
 	padding-right: 10px;
 	padding-left: 20px;
 	padding-bottom: 20px; 
+	font-family: Oleo_Script, sans-serif;
 }
 
 .news .welcome, .news-blok{
 	display: inline-block;
 	font-size: 15px;
 	vertical-align: top;
+	font-family: Oleo_Script, sans-serif;
 }
 
 .news {
-	margin-left: 50px;
+	margin-left: 100px;
 }
 
 .latest {
@@ -89,6 +143,7 @@ header h1 {
 	text-align: left;
 	width: 300px;
 	font-size: 19px;
+	font-family: Oleo_Script, sans-serif;
 }
 
 footer {
